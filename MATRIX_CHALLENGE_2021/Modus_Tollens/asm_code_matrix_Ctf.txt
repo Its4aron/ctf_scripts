@@ -1,0 +1,615 @@
+	movzx  eax,BYTE PTR [rbp-0x70]
+	movsx  eax,al
+	mov    esi,0xf
+	mov    edi,eax
+	call   0x555555555258 <f2>
+	test   eax,eax
+	jne    0x555555555d92 <main+2744>
+	movzx  eax,BYTE PTR [rbp-0x75]
+	movsx  eax,al
+	mov    esi,0x6
+	mov    edi,eax
+	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555d98 <main+2750>
+   	movzx  eax,BYTE PTR [rbp-0x85]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555d9e <main+2756>
+   	movzx  eax,BYTE PTR [rbp-0x8a]
+   	movsx  eax,al
+   	mov    esi,0xd
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555da4 <main+2762>
+   	movzx  eax,BYTE PTR [rbp-0x71]
+   	movsx  eax,al
+   	mov    esi,0x2
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555daa <main+2768>
+   	movzx  eax,BYTE PTR [rbp-0x7d]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555db0 <main+2774>
+   	movzx  eax,BYTE PTR [rbp-0x67]
+   	movsx  eax,al
+   	mov    esi,0x0
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555db6 <main+2780>
+   	movzx  eax,BYTE PTR [rbp-0x80]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555dbc <main+2786>
+   	movzx  eax,BYTE PTR [rbp-0x78]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555dc2 <main+2792>
+   	movzx  eax,BYTE PTR [rbp-0x66]
+   	movsx  eax,al
+   	mov    esi,0xf
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555dc8 <main+2798>
+   	movzx  eax,BYTE PTR [rbp-0x86]
+   	movsx  eax,al
+   	mov    esi,0x6
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555dce <main+2804>
+   	movzx  eax,BYTE PTR [rbp-0x6f]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555dd4 <main+2810>
+   	movzx  eax,BYTE PTR [rbp-0x86]
+ 	movsx  eax,al
+   	mov    esi,0xd
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555dda <main+2816>
+   	movzx  eax,BYTE PTR [rbp-0x7b]
+   	movsx  eax,al
+   	mov    esi,0xb
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555de0 <main+2822>
+   	movzx  eax,BYTE PTR [rbp-0x74]
+   	movsx  eax,al
+   	mov    esi,0x7
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555de6 <main+2828>
+   	movzx  eax,BYTE PTR [rbp-0x85]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555dec <main+2834>
+   	movzx  eax,BYTE PTR [rbp-0x6e]
+   	movsx  eax,al
+   	mov    esi,0x6
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555df2 <main+2840>
+   	movzx  eax,BYTE PTR [rbp-0x80]
+   	movsx  eax,al
+   	mov    esi,0xb
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555df8 <main+2846>
+   	movzx  eax,BYTE PTR [rbp-0x71]
+   	movsx  eax,al
+   	mov    esi,0x4
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555dfe <main+2852>
+   	movzx  eax,BYTE PTR [rbp-0x8b]
+   	movsx  eax,al
+   	mov    esi,0xf
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555e04 <main+2858>
+   	movzx  eax,BYTE PTR [rbp-0x7f]
+   	movsx  eax,al
+   	mov    esi,0x4
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e0a <main+2864>
+   	movzx  eax,BYTE PTR [rbp-0x7d]
+   	movsx  eax,al
+   	mov    esi,0x6
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555e10 <main+2870>
+   	movzx  eax,BYTE PTR [rbp-0x6d]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555e16 <main+2876>
+   	movzx  eax,BYTE PTR [rbp-0x8b]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e1c <main+2882>
+   	movzx  eax,BYTE PTR [rbp-0x65]
+   	movsx  eax,al
+   	mov    esi,0xd
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e22 <main+2888>
+   	movzx  eax,BYTE PTR [rbp-0x77]
+   	movsx  eax,al
+   	mov    esi,0x8
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e28 <main+2894>
+   	movzx  eax,BYTE PTR [rbp-0x72]
+   	movsx  eax,al
+   	mov    esi,0x6
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555e2e <main+2900>
+   	movzx  eax,BYTE PTR [rbp-0x75]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e34 <main+2906>
+   	movzx  eax,BYTE PTR [rbp-0x7a]
+   	movsx  eax,al
+   	mov    esi,0xe
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e3a <main+2912>
+   	movzx  eax,BYTE PTR [rbp-0x73]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555e40 <main+2918>
+   	movzx  eax,BYTE PTR [rbp-0x73]
+   	movsx  eax,al
+   	mov    esi,0xf
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e46 <main+2924>
+   	movzx  eax,BYTE PTR [rbp-0x8a]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e4c <main+2930>
+   	movzx  eax,BYTE PTR [rbp-0x81]
+   	movsx  eax,al
+   	mov    esi,0x4
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e52 <main+2936>
+   	movzx  eax,BYTE PTR [rbp-0x8d]
+   	movsx  eax,al
+   	mov    esi,0xb
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e58 <main+2942>
+   	movzx  eax,BYTE PTR [rbp-0x69]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555e5e <main+2948>
+   	movzx  eax,BYTE PTR [rbp-0x87]
+   	movsx  eax,al
+   	mov    esi,0x1
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e64 <main+2954>
+   	movzx  eax,BYTE PTR [rbp-0x8f]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555e6a <main+2960>
+   	movzx  eax,BYTE PTR [rbp-0x66]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e70 <main+2966>
+   	movzx  eax,BYTE PTR [rbp-0x8c]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555e76 <main+2972>
+   	movzx  eax,BYTE PTR [rbp-0x8d]
+   	movsx  eax,al
+   	mov    esi,0x8
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e7c <main+2978>
+   	movzx  eax,BYTE PTR [rbp-0x87]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e82 <main+2984>
+   	movzx  eax,BYTE PTR [rbp-0x6a]
+   	movsx  eax,al
+   	mov    esi,0x7
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555e88 <main+2990>
+   	movzx  eax,BYTE PTR [rbp-0x7e]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e8e <main+2996>
+   	movzx  eax,BYTE PTR [rbp-0x84]
+   	movsx  eax,al
+   	mov    esi,0xa
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555e94 <main+3002>
+   	movzx  eax,BYTE PTR [rbp-0x6c]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555e9a <main+3008>
+   	movzx  eax,BYTE PTR [rbp-0x83]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555e9d <main+3011>
+   	movzx  eax,BYTE PTR [rbp-0x72]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555ea0 <main+3014>
+   	movzx  eax,BYTE PTR [rbp-0x83]
+   	movsx  eax,al
+   	mov    esi,0x0
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555ea3 <main+3017>
+   	movzx  eax,BYTE PTR [rbp-0x69]
+   	movsx  eax,al
+   	mov    esi,0x0
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555ea6 <main+3020>
+   	movzx  eax,BYTE PTR [rbp-0x7c]
+   	movsx  eax,al
+   	mov    esi,0x0
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555ea9 <main+3023>
+   	movzx  eax,BYTE PTR [rbp-0x82]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555eac <main+3026>
+   	movzx  eax,BYTE PTR [rbp-0x81]
+   	movsx  eax,al
+   	mov    esi,0x8
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555eaf <main+3029>
+   	movzx  eax,BYTE PTR [rbp-0x70]
+   	movsx  eax,al
+   	mov    esi,0xa
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555eb2 <main+3032>
+   	movzx  eax,BYTE PTR [rbp-0x76]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555eb5 <main+3035>
+   	movzx  eax,BYTE PTR [rbp-0x65]
+   	movsx  eax,al
+   	mov    esi,0x7
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555eb8 <main+3038>
+   	movzx  eax,BYTE PTR [rbp-0x6f]
+   	movsx  eax,al
+   	mov    esi,0xa
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555ebb <main+3041>
+   	movzx  eax,BYTE PTR [rbp-0x6b]
+   	movsx  eax,al
+   	mov    esi,0x6
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555ebe <main+3044>
+   	movzx  eax,BYTE PTR [rbp-0x7f]
+   	movsx  eax,al
+   	mov    esi,0x8
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555ec1 <main+3047>
+   	movzx  eax,BYTE PTR [rbp-0x76]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555ec4 <main+3050>
+   	movzx  eax,BYTE PTR [rbp-0x89]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555ec7 <main+3053>
+   	movzx  eax,BYTE PTR [rbp-0x6a]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555eca <main+3056>
+   	movzx  eax,BYTE PTR [rbp-0x68]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555ecd <main+3059>
+   	movzx  eax,BYTE PTR [rbp-0x8e]
+   	movsx  eax,al
+   	mov    esi,0xb
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555ed0 <main+3062>
+   	movzx  eax,BYTE PTR [rbp-0x6d]
+   	movsx  eax,al
+   	mov    esi,0x0
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555ed3 <main+3065>
+   	movzx  eax,BYTE PTR [rbp-0x7a]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555ed6 <main+3068>
+   	movzx  eax,BYTE PTR [rbp-0x79]
+   	movsx  eax,al
+   	mov    esi,0xb
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555ed9 <main+3071>
+   	movzx  eax,BYTE PTR [rbp-0x7e]
+   	movsx  eax,al
+   	mov    esi,0x6
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555edc <main+3074>
+   	movzx  eax,BYTE PTR [rbp-0x74]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555edf <main+3077>
+   	movzx  eax,BYTE PTR [rbp-0x77]
+   	movsx  eax,al
+   	mov    esi,0x6
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555ee2 <main+3080>
+   	movzx  eax,BYTE PTR [rbp-0x6b]
+   	movsx  eax,al
+   	mov    esi,0x8
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555ee5 <main+3083>
+   	movzx  eax,BYTE PTR [rbp-0x8f]
+   	movsx  eax,al
+   	mov    esi,0x4
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555ee8 <main+3086>
+   	movzx  eax,BYTE PTR [rbp-0x8c]
+   	movsx  eax,al
+   	mov    esi,0xa
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555eeb <main+3089>
+   	movzx  eax,BYTE PTR [rbp-0x82]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555eee <main+3092>
+   	movzx  eax,BYTE PTR [rbp-0x7c]
+   	movsx  eax,al
+   	mov    esi,0xa
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555ef1 <main+3095>
+   	movzx  eax,BYTE PTR [rbp-0x88]
+   	movsx  eax,al
+   	mov    esi,0xa
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555ef4 <main+3098>
+   	movzx  eax,BYTE PTR [rbp-0x89]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555ef7 <main+3101>
+   	movzx  eax,BYTE PTR [rbp-0x68]
+   	movsx  eax,al
+   	mov    esi,0x1
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555efa <main+3104>
+   	movzx  eax,BYTE PTR [rbp-0x90]
+   	movsx  eax,al
+   	mov    esi,0x2
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555efd <main+3107>
+   	movzx  eax,BYTE PTR [rbp-0x78]
+   	movsx  eax,al
+   	mov    esi,0x9
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555f00 <main+3110>
+   	movzx  eax,BYTE PTR [rbp-0x67]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555f03 <main+3113>
+   	movzx  eax,BYTE PTR [rbp-0x6c]
+   	movsx  eax,al
+   	mov    esi,0x5
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555f06 <main+3116>
+   	movzx  eax,BYTE PTR [rbp-0x7b]
+   	movsx  eax,al
+   	mov    esi,0x1
+   	mov    edi,eax
+   	call   0x555555555258 <f2>
+   	test   eax,eax
+   	jne    0x555555555f09 <main+3119>
+   	movzx  eax,BYTE PTR [rbp-0x8e]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555f0c <main+3122>
+   	movzx  eax,BYTE PTR [rbp-0x79]
+   	movsx  eax,al
+   	mov    esi,0x3
+   	mov    edi,eax
+   	call   0x555555555229 <f1>
+   	test   eax,eax
+   	jne    0x555555555f0f <main+3125>
+   	movzx  eax,BYTE PTR [rbp-0x88]
+   	movsx  eax,al
+   	mov    esi,0xb
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555f12 <main+3128>
+   	movzx  eax,BYTE PTR [rbp-0x90]
+   	movsx  eax,al
+   	mov    esi,0xb
+   	mov    edi,eax
+   	call   0x555555555281 <f3>
+   	test   eax,eax
+   	jne    0x555555555f15 <main+3131>
+   	movzx  eax,BYTE PTR [rbp-0x84]
+   	movsx  eax,al
+   	mov    esi,0xc
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
+   	jne    0x555555555f18 <main+3134>
+   	movzx  eax,BYTE PTR [rbp-0x6e]
+   	movsx  eax,al
+   	mov    esi,0x1
+   	mov    edi,eax
+   	call   0x5555555552af <f4>
+   	test   eax,eax
