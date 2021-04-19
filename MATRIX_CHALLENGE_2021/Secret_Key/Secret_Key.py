@@ -3,32 +3,7 @@
 # {OÙ§lP’Úó­Ôd'iý»?a˜è<ÖúQé~ù
  #32
 
-# ciphertext = "{OÙ§lP’Úó­Ôd'iý»?a˜è<ÖúQé~ù"
-# key = b'985246f1480134f60eeeb9e8c2d08910'
-# cipher = AES.new(key, AES.MODE_CBC)
-# plaintext = cipher.decrypt(ciphertext)
-# print(plaintext)
 
-# from Crypto.Cipher import AES
-# from Crypto.Util.Padding import unpad
-# iv = '985246f1480134f60eeeb9e8c2d08910'
-# iv = binascii.unhexlify(iv)
-# key = b'f1b83682fa9cbe59cacba59d0ae9af44'
-# #FILE--
-# input_file = 'enc.txt'
-# file_in = open(input_file, 'rb')
-# ciphered_data = file_in.read()
-# file_in.close()
-# #FILE--
-# #Cipher--
-# cipher = AES.new(key, AES.MODE_CBC, iv=iv)  # Setup cipher
-
-# original_data = (cipher.decrypt(ciphered_data), AES.block_size)
-# print(original_data)
-
-# x = b'\xbb\x03({\xabl\xf4\xf1}\xf9\xd1\x96dQ[{Xx%\xf2\x01\x15\xa5\xb0qi\xf1\xe6Y\xc5\x0e\x84'
-# x = binascii.b2a_hex(x)
-# print(x)
 import binascii
 from Crypto.Cipher import AES
 
@@ -65,6 +40,8 @@ print(a)
 ######### output: f1b83682fa9cbe59cacba59d0ae9af44
 
 
+
+#Vector 
 '''
 1111 1111
 1111 1111
